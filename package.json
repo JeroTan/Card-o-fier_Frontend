@@ -1,0 +1,44 @@
+{
+  "name": "cardofier_frontend",
+  "version": "1.0.0",
+  "description": "Card-o-fier (Frontend) will contains the contents the visual and interfaces of the game. Card-o-fier is a multiplayer game where you fight using random cards to create meaningful yet deadly impact to your opponents.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeroTan/Card-o-fier_Frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeroTan/Card-o-fier_Frontend/issues"
+  },
+  "homepage": "https://github.com/JeroTan/Card-o-fier_Frontend#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3"
+  },
+  "dependencies": {
+    "@pixi/react": "^7.1.1",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.10.0",
+    "file-loader": "^6.2.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.4",
+    "pixi.js": "^7.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "sort-by": "^1.2.0",
+    "style-loader": "^3.3.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
